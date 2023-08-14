@@ -1,0 +1,150 @@
+.main{
+    background-image: url("../../img/Main\ background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_1 h1{
+    font-style: normal;
+    font-weight: 600;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Titillium Web 600';
+    letter-spacing: 1px;
+    line-height: 1.1;
+}
+
+.main_1 p{
+    font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Open Sans 400';
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-top: 30px;
+}
+
+.main_2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.main_2 a:first-child{
+    font-family: 'Open Sans 400';
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    width: 190px;
+    height: 59.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.main_2 a:first-child:hover{
+    color: #fff;
+    background-color: #2040d5;
+}
+
+.main_2 a:last-child{
+    font-family: 'Open Sans 400';
+    color: #fff;
+    background-color: #2040d5;
+    width: 190px;
+    height: 59.2px;
+    margin-left: 10px;
+    border: 2px solid #2040d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.main_2 a:last-child:hover{
+    color: #2040d5;
+    background-color: #fff;
+}
+
+@media(max-width:850px){
+    .main_1 h1{
+        font-size: 40px;
+    }
+
+    .main_1 p{
+        font-size: 15px;
+    }
+
+    .main{
+        background-position: center;
+    }
+}
+
+@media(max-width:610px){
+    .main_1 h1{
+        font-size: 35px;
+    }
+
+    .main_1 p{
+        font-size: 10px;
+    }
+
+    .main_2 a:first-child{
+        width: 150px;
+        height: 45px;
+    }
+
+    .main_2 a:last-child{
+        width: 150px;
+        height: 45px;
+    }
+
+    .main{
+        background-position: center;
+    }
+}
+
+@media(max-width:500px){
+    .main{
+        background-position: left;
+    }
+}
+
+@media(max-width:450px){
+    .main_2{
+        display: block;
+    }
+
+    .main_2 a:first-child{
+        width: 190px;
+        height: 60px;
+    }
+
+    .main_2 a:last-child{
+        width: 190px;
+        height: 60px;
+        margin: 20px 0 0;
+    }
+
+    .main_1 h1{
+        font-size: 30px;
+    }
+
+    .main_1 p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .section-padding1{
+        padding: 50px 0;
+    }
+}

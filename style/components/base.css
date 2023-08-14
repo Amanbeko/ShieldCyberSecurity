@@ -1,0 +1,94 @@
+body a{
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+
+section{
+    width: 100%;    
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.section-padding1{
+    padding: 100px 0;
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+.section_line{
+    width: 50px;
+    background-color: #2040d5;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.section_a{
+    background-color: #2040d5;
+    border: 2px solid #2040d5;
+    font-family: 'Open Sans 400';
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 60px;
+    transition: .4s;
+}
+
+.section_a:hover{
+    background-color: #fff;
+    color: #2040d5;
+}
+
+@font-face {
+    font-family: 'Titillium Web 600';
+    src: url(../../fonts/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Titillium Web 400';
+    src: url(../../fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Titillium Web 700';
+    src: url(../../fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans 300';
+    src: url(../../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans 400';
+    src: url(../../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans 800';
+    src: url(../../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans 700';
+    src: url(../../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans ita';
+    src: url(../../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Titillium Web ita';
+    src: url(../../fonts/TitilliumWeb-Italic.ttf);
+}

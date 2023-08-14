@@ -1,0 +1,81 @@
+.section_1_1 h2{
+    font-family: 'Titillium Web 700';
+    font-size: 40px;
+    font-weight: 700;
+}
+.section_1_1 h2:last-child{
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Titillium Web 400';
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.section_1_2{
+    display: flex;
+    align-items: center;
+    height: 99px;
+    width: 100%;
+}
+
+.section_1_2 div{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    padding-top: 55px;
+}
+
+.section_1_2 div a{
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Titillium Web 400';
+    font-style: normal;
+    padding: 0 10;
+    transition: .4s;
+}
+
+.section_1_2 div a:hover{
+    color: #2040d5;
+}
+
+.section_1_3{
+    display: flex;
+    align-items: center;
+    height: 111px;
+    width: 100%;
+}
+
+.section_1_3 div{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 111px;
+}
+
+.section_1_3 div a{
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Titillium Web 400';
+    font-style: normal;
+    padding: 0 10;
+    transition: .4s;
+}
+
+.section_1_3 div img{
+    width: 55px;
+}
+
+.section_1_3 div a:hover{
+    color: #2040d5;
+}
+
+@media(max-width:1200px){
+    .section_1_2 div:last-child{
+        width: 25%;
+    }
+}

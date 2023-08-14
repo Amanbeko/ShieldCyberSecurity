@@ -1,0 +1,140 @@
+.footer{
+    background-color: #0a0a0a;
+    padding: 125px 0 45px;
+}
+
+.footer_padding{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer_1, .footer_2, .footer_3{
+    width: calc(33.33% - 10px);
+}
+
+.footer_padding div h3{
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Titillium Web 600';
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding-bottom: 25px;
+}
+
+.footer_1 p{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans 400';
+    color: #828282;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    padding: 0 45px 25px 0;
+}
+
+.footer_1 div{
+    filter: invert(1);
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0%;
+    transition: .4s;
+    padding-bottom: 65px;
+}
+
+.header_item_icons:hover{
+    color:#989da2; 
+}
+
+.footer_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_menu div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footer_menu a{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Open Sans 400';
+    font-style: normal;
+    font-size: 16px;
+    transition: .4s;
+    padding-bottom: 15px;
+}
+
+.footer_menu a:hover{
+    color: #2040d5;
+}
+
+.footer_3 button{
+    width: 190px;
+    height: 60px;
+    border: 2px solid #2040d5;
+    background-color: #2040d5;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans 400';
+    font-weight: 400;
+    font-style: normal;
+    transition: .4s;
+}
+
+.footer_3 button:hover{
+    background-color: #fff;
+    color: #2040d5;
+}
+
+.footer_3 input{
+    width: 100%;
+    color: #3e3e3e;
+    background-color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    border-color: #3e3e3e;
+    border-radius: 10px;
+    padding: 17px 20px;
+    margin-bottom: 10px;
+}
+
+.footer_3 input::placeholder{
+   font-size: 14px;
+   color: #3e3e3e;
+}
+
+.Copyright{
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans 300';
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    padding: 45px 0 0 152px;
+    border-top: 1px solid #828282;
+}
+
+.Copyright a{
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans 300';
+    color: #828282;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    transition: .4s;
+}
+
+.Copyright a:hover{
+    color: #fff;
+}

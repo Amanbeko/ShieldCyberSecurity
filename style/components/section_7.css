@@ -1,0 +1,76 @@
+.section_7_padding{
+    padding: 125px 0;
+    margin: 0 auto;
+    width: 77%;
+}
+
+.section_7_padding h2{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Titillium Web 400';
+    color: #000;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.section_7_padding h2 span{
+    font-weight: 700;
+    font-family: 'Titillium Web 700';
+}
+
+.section_7_ctr{
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section_7_ctr div{
+    width: calc(33.33% - 10px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../img/IT\ Security.jpg");
+    padding: 0 25px 25px;
+}
+
+.section_7_ctr div:first-child{
+    background-image: url("../../img/Personal\ Cyber.jpg");
+}
+
+.section_7_ctr div:last-child{
+    background-image: url("../../img/Healthcare\ Security\ Solutions.jpg");
+}
+
+.section_7_ctr div p{
+    margin-top: 340px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Open Sans 400';
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.section_7_ctr div h3{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Titillium Web 400';
+    color: #fff;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+
+.section_7_ctr div p:last-child{
+    margin: 25px 0 0;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans 400';
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
